@@ -5,5 +5,9 @@ package fundamentals.chapter2.sec3_array;
  * int[] i = {100,200,300}
  */
 public class No003 {
+	public static void main(String[] args) {
+		int[] num = { 100,200,300 };
 
+		System.out.println(num[0]);
+	}
 }

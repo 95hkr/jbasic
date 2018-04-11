@@ -16,7 +16,8 @@ public class No001 {
 		intArray[1] = 74;
 		intArray[2] = 92;
 
-		System.out.println();
-
+		System.out.println("1人目：84");
+		System.out.println("2人目：74");
+		System.out.println("3人目：92");
 	}
 }

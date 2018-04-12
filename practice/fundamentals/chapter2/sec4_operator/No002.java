@@ -5,11 +5,11 @@ package fundamentals.chapter2.sec4_operator;
 public class No002 {
 	public static void main(String[] args) {
 		int num;
-		num a = 1;
+		num = 1;
 
-		String num;
-		num b = "リンゴ";
+		String str;
+		str = "リンゴ";
 
-		a += b;
+		System.out.println(num + str);
 		}
 	}

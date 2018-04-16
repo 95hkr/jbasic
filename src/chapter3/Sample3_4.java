@@ -1,4 +1,4 @@
-package chapter2;
+package chapter3;
 
 class MyClass {
 	public void printStuff(String greet, int...values) {

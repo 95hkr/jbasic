@@ -4,9 +4,14 @@ package fundamentals.chapter2.sec5_for;
  */
 public class No004 {
 	public static void main(String[] args) {
+
+		int i = 0;
+
 		for(int a = 1; a <= 10; a++) {
-			
-				System.out.println(a);
+
+			i = a + i;
+
 			}
+		System.out.print(i);
 		}
 	}

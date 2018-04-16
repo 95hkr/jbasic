@@ -4,8 +4,12 @@ package fundamentals.chapter2.sec5_for;
  */
 public class No006 {
 	public static void main(String[] args) {
-		for(int a = 1; a <= 8; a++);
+		int a = 1;
+		for(int b = 0; b < 8; b++) {
 
-		System.out.println(();
+		a *= 2;
+
+		System.out.println(a);
+		}
 	}
 }

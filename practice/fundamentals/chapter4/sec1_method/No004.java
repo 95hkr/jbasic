@@ -4,6 +4,28 @@ package fundamentals.chapter4.sec1_method;
  * mainメソッドからキーボード入力で点数を受け取り、メソッドを使って判定してください。
  * ※80点以上で合格とする。
  */
-public class No004 {
 
+class Test{
+	boolean num;
+
+	void setNum(boolean x) {
+		num = x;
+		num >= 80;
+	}
+
+	boolean getNum() {
+		return num;
+	}
 }
+
+public class No004 {
+	public static void main(String[] args) {
+
+		Test b1 = new Test();
+		b1.setNum(62);
+
+		Test b2 = new Test();
+		b2.setNum(87);
+
+		}
+	}

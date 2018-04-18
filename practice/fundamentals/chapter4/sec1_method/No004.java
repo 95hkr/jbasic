@@ -5,27 +5,20 @@ package fundamentals.chapter4.sec1_method;
  * ※80点以上で合格とする。
  */
 
-class Test{
-	boolean num;
 
-	void setNum(boolean x) {
-		num = x;
-		num >= 80;
-	}
 
-	boolean getNum() {
-		return num;
+class No004 {
+	public static void score(int x) {
+		if(x >= 80) {
+			System.out.println("合格");
+		}else {
+			System.out.println("不合格");
 	}
 }
 
-public class No004 {
 	public static void main(String[] args) {
+		score(62);
+		score(87);
 
-		Test b1 = new Test();
-		b1.setNum(62);
-
-		Test b2 = new Test();
-		b2.setNum(87);
-
-		}
 	}
+}

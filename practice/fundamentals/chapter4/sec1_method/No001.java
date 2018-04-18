@@ -4,10 +4,9 @@ package fundamentals.chapter4.sec1_method;
  * mainメソッドからそのメソッドを使っていくつかの足し算を実行させて結果を表示させるプログラムを作成してください。
  */
 class No001 {
-	public static int a(int x,int y) {
+	public static void a(int x,int y) {
 		int a = x + y;
 		System.out.println(a);
-		return a;
 	}
 
 	public static void main(String[] args) {

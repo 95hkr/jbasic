@@ -5,6 +5,11 @@ package fundamentals.chapter4.sec2_class;
  * メソッドとして面積を返すメソッドを定義してください。
  * No003クラスのmainメソッドで四角形クラスをインスタンス化し、面積を表示させるプログラムを作成してください。
  */
+class Square{
+	
+		
+	}
+
 public class No003 {
 
 }

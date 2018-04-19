@@ -7,11 +7,8 @@ package fundamentals.chapter4.sec2_class;
 class Car{
 	String parts;
 
-	void setParts(String x) {
+	String setParts(String x) {
 		parts = x;
-	}
-
-	String getParts() {
 		return parts;
 	}
 }
@@ -19,13 +16,13 @@ class Car{
 public class No002 {
 	public static void main(String[] args) {
 
-		Car p1 = new Car();
-		p1.setParts("タイヤ");
+		Car c1 = new Car();
+		String par = c1.setParts("タイヤ");
 
-		Car p2 = new Car();
-		p2.setParts("ミラー");
+		Car c2 = new Car();
+		String par2 = c2.setParts("ミラー");
 
-		System.out.println(p1.getParts());
-		System.out.println(p2.getParts());
+		System.out.println(par);
+		System.out.println(par2);
 	}
 }

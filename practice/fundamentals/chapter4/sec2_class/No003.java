@@ -6,10 +6,19 @@ package fundamentals.chapter4.sec2_class;
  * No003クラスのmainメソッドで四角形クラスをインスタンス化し、面積を表示させるプログラムを作成してください。
  */
 class Square{
-	
-		
+	int area;
+
+	int num(int height, int length) {
+		area = height * length;
+		return area;
 	}
+}
 
 public class No003 {
+	public static void main(String[] args) {
+		Square suq = new Square();
+		int fig = suq.num(5 , 9);
 
+		System.out.println(fig);
+	}
 }

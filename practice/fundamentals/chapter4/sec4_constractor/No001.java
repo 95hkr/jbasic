@@ -31,9 +31,9 @@ class Car{
 		System.out.println("残ガソリン：" + gas);
 	}
 
-	void drive3() {
-		;
-		System.out.println(gas);
+	 void drive3(int y) {
+		gas += y;
+
 	}
 }
 
@@ -42,7 +42,8 @@ public class No001 {
 		Car c1 = new Car();
 		c1.drive(15);
 		c1.drive2();
-		c1.drive3();
+		c1.drive3(15);
+		c1.drive2();
 		System.out.println("走行距離："+ c1.drive(15));
 
 	}

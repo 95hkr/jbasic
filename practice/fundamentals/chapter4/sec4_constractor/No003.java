@@ -5,20 +5,18 @@ package fundamentals.chapter4.sec4_constractor;
  * また、表示されるID番号はインスタンス化するたびに1ずつインクリメントされるようにしてください。
  */
 class Human{
-	int id;
+	static int id = 1;
 
 	Human(){
 		System.out.println("あなたのIDは"+ id + "です。");
-	}
-	int Num(int x) {
-		id = x;
-		for(id = 1; id >= 1; id++);
-		return  id;
+		id++;
 	}
 }
+
 public class No003 {
 	public static void main(String[] args) {
 		Human human = new Human();
-		human.Num(1);
+		Human human2 = new Human();
+		Human human3 = new Human();
 	}
 }

@@ -20,19 +20,47 @@ class Fruit{
 	int color;
 	int Big;
 
-	int quality(int x, int y,int z) {
+	Fruit(){
+		sweet = 3;
+		color = 3;
+		Big = 3;
+	}
+
+	void quality(int x, int y,int z) {
 		sweet = x;
 		color = y;
 		Big = z;
 
-		System.out.println("甘さ："+ sweet);
-		System.out.println("色："+ color);
-		System.out.println("大きさ："+ Big);
+		if(x == 3) {
+			System.out.println("甘さ：普通");
+		}else if(x > 3) {
+			System.out.println("甘さ：甘い");
+		}else {
+			System.out.println("甘さ：すっぱい");
+		}
 
-		return sweet;
+		if(y == 3) {
+			System.out.println("色：普通");
+		}else if(y > 3) {
+			System.out.println("色：濃い");
+		}else {
+			System.out.println("色：薄い");
+		}
+
+		if(z == 3) {
+			System.out.println("大きさ：普通");
+		}else if(z > 3){
+			System.out.println("大きさ：大きい");
+		}else {
+			System.out.println("大きさ：小ぶり");
+		}
 	}
 }
 
 public class No004 {
+	public static void main(String[] args) {
+		Fruit f1 = new Fruit();
+		f1.quality(5,2,3);
 
+	}
 }

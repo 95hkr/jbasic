@@ -27,11 +27,11 @@ class Car{
 		return km;
 	}
 
-	void drive2() {
+	void check() {
 		System.out.println("残ガソリン：" + gas);
 	}
 
-	 void drive3(int y) {
+	 void gasplus(int y) {
 		gas += y;
 
 	}
@@ -41,9 +41,9 @@ public class No001 {
 	public static void main(String[] args) {
 		Car c1 = new Car();
 		c1.drive(15);
-		c1.drive2();
-		c1.drive3(15);
-		c1.drive2();
+		c1.check();
+		c1.gasplus(15);
+		c1.check();
 		System.out.println("走行距離："+ c1.drive(15));
 
 	}

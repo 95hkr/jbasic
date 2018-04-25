@@ -22,20 +22,12 @@ public class No001 {
 
 	public static int min(int a,int b,int c) {
 		num = a;
-		num = b;
-		num = c;
 
-		if(a <= b) {
+		if(b < num) {
+			num = b;
 			System.out.println(num);
-		}else if(a < c) {
-			System.out.println(num);
-		}else if(b < a) {
-			System.out.println(num);
-		}else if(b < c) {
-			System.out.println(num);
-		}else if(c < a) {
-			System.out.println(num);
-		}else if(c < b) {
+		}else if(c <= num){
+			num = c;
 			System.out.println(num);
 		}else {
 			System.out.println(num);

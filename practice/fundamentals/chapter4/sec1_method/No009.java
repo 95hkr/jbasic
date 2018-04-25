@@ -10,22 +10,16 @@ public class No009 {
 	public static int med(int x,int y,int z) {
 
 		num = x;
-		num = y;
-		num = z;
-
-
-		if() {
-
-		}
 
 
 		return num;
-
 	}
 
 	public static void main(String[] args) {
 		med(5,7,3);
+		med(45,68,85);
 
-		System.out.println(num);
+		System.out.println(med(5,7,3));
+		System.out.println(med(45,68,85));
 	}
 }

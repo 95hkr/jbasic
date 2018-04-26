@@ -5,5 +5,17 @@ package fundamentals.chapter5.sec1_multiarray;
  * ※3次元配列の各要素数は3とする。
  */
 public class No003 {
-	
+	public static void main(String[] args) {
+		int[][][] array = new int[3][3][3];
+
+		array[0][0][0] = 15;
+		array[0][0][1] = 12;
+		array[0][1][2] = 4;
+		array[0][2][0] = 3;
+		array[0][2][2] = 22;
+		array[1][0][0] = 11;
+
+
+		System.out.println(array[1][0][0]);
+	}
 }

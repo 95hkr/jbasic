@@ -6,13 +6,10 @@ package fundamentals.chapter5.sec1_multiarray;
 public class No002 {
 	public static void main(String[] args) {
 		int[][]array = {
-				{21,6},
-				{5,7},
-				{38,62},
-				{98,1},
-				{25,11},
-				{53,13}
+				{21,6,5,7},
+				{38,62,98,51}
 		};
-				System.out.println(array[1][1] array[3][0]);
+
+				System.out.println(array[1][2]);
 	}
 }

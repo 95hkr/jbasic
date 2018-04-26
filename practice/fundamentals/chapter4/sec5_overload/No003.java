@@ -6,33 +6,29 @@ package fundamentals.chapter4.sec5_overload;
  */
 class Plus{
 	int add;
-
+	double ad;
+	String a;
 
 	Plus(int x,int y){
-		int add = x + y;
+		add = x + y;
 	}
-
 	Plus(double x,double y){
-		double add = x + y;
+		ad = x + y;
 	}
-
-	Plus(int x,int y,int z){
-		int add = x + y + z;
+	Plus(String x,String y){
+		a = x + y;
 	}
 }
 
 public class No003 {
 	public static void main(String[] args) {
 
-		Plus p1 = new Plus(1,8);
-
+		Plus p1 = new Plus(15,28);
 		Plus p2 = new Plus(1.5,0.8);
-
-		Plus p3 = new Plus("りんご","はちみつ","スープ");
-
+		Plus p3 = new Plus("りんご","はちみつ");
 
 		System.out.println(p1.add);
-		System.out.println(p2.add);
-		System.out.println(p3.add);
+		System.out.println(p2.ad);
+		System.out.println(p3.a);
 	}
 }

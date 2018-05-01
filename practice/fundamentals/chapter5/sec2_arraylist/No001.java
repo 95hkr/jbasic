@@ -11,18 +11,17 @@ import java.util.ArrayList;
  *
  * ※ジェネリックは適当に定義すること
  */
-class Fluit{
-	ArrayList <String> fresh = new ArrayList <String> ();
-}
-
 public class No001 {
 	public static void main(String[] args) {
-		Fluit fluit = new Fluit();
+		ArrayList <String> fresh = new ArrayList <String> (3);
 
-		fluit.add("ばなな");
-		fluit.add("りんご");
-		fluit.add("ぶどう");
+		fresh.add("ばなな");
+		fresh.add("りんご");
+		fresh.add("ぶどう");
 
-
+		String[] fl = {"ばなな","りんご","ぶどう"};
+		for(String s : fl) {
+			System.out.print(s + "-");
+		}
 	}
 }

@@ -17,7 +17,7 @@ public class No001 {
 
 		for(int a = 0; a < array.length; a++) {
 			for(int b = 1; b < array[a].length; b++) {
-				System.out.println("array["+ a + "]["+ b +"]="+ array[a][b]);
+				System.out.println(array[a][b]);
 			}
 		}
 	}

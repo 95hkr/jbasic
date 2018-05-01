@@ -5,5 +5,20 @@ package fundamentals.chapter4.sec1_method;
  * ※nはキーボード入力により取得すること
  */
 public class No010 {
+	static int num;
+	static int n;
 
+	public static int no(int i) {
+		num = i;
+		num = 0;
+
+		for(int a = 1; a <= n; a++);
+		return num;
+	}
+
+	public static void main(String[] args) {
+		n = 75;
+
+		System.out.println(num);
+	}
 }

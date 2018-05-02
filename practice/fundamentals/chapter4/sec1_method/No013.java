@@ -5,5 +5,22 @@ package fundamentals.chapter4.sec1_method;
  * ※平均の計算は整数で行うこと
  */
 public class No013 {
+	static int num;
 
+	static int avr(int x,int y) {
+		for(x = 0;x >= 1; x++) {
+			for(y = 0; y>= 1; y++) {
+
+				num = x + y;
+				num /= 2;
+			}
+		}
+		return num;
+	}
+
+	public static void main(String[] args) {
+		avr(5,9);
+
+		System.out.println(avr(5,9));
+	}
 }

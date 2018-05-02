@@ -5,8 +5,6 @@ package fundamentals.chapter4.sec1_method;
  */
 public class No009 {
 
-	static int num;
-
 	public static int med(int x,int y,int z) {
 
 		if(x >= y) {

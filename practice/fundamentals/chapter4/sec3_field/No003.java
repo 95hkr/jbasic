@@ -7,12 +7,16 @@ class Hoge{
 
 	int x = 10;
 
+	public int num() {
+		return this.x;
+	}
 }
 
 
 public class No003 {
 	public static void main(String[] args) {
-
-		System.out.println();
+		Hoge hg = new Hoge();
+		hg.num();
+		System.out.println(hg.num());
 	}
 }

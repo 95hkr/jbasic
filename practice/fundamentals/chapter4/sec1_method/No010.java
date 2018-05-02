@@ -8,7 +8,7 @@ public class No010 {
 	static int num;
 	static int n;
 
-	public static int no(int i) {
+	static int no(int i) {
 		num = i;
 		num = 0;
 
@@ -17,8 +17,8 @@ public class No010 {
 	}
 
 	public static void main(String[] args) {
-		n = 75;
+		no(5);
 
-		System.out.println(num);
+		System.out.println(no(5));
 	}
 }

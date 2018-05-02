@@ -4,5 +4,17 @@ package fundamentals.chapter4.sec1_method;
  * また、メソッドの動作を検証できるようにプログラムを作成してください。
  */
 public class No012 {
+	static int no;
 
+	static int num(int a) {
+			a *= a;
+			no = a;
+
+			return no;
+	}
+
+	public static void main(String[] args) {
+		num(8);
+		System.out.println(num(8));
+	}
 }

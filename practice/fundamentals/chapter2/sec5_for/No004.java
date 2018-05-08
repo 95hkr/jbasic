@@ -11,6 +11,7 @@ public class No004 {
 
 			i = a + i;
 
+
 			}
 		System.out.print(i);
 		}

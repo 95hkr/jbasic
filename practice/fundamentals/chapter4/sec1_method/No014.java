@@ -5,4 +5,15 @@ package fundamentals.chapter4.sec1_method;
  */
 public class No014 {
 
+	static void kuku(int x) {
+
+		for(int y = 1; y >= 9; y++) {
+			int num = x * y;
+			System.out.print(num);
+		}
+	}
+	public static void main(String[] args) {
+		kuku(1);
+		kuku(2);
+	}
 }

@@ -4,11 +4,9 @@ package fundamentals.chapter4.sec1_method;
  */
 public class No011 {
 
-	static String a = "Hello";
-	static String word;
-
 	static void greet(String x) {
-		word = a + x;
+		String a = "Hello";
+		String word = a + x;
 		System.out.println(word);
 	}
 

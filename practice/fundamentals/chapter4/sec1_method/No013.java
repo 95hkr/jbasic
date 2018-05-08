@@ -8,13 +8,9 @@ public class No013 {
 	static int num;
 
 	static int avr(int x,int y) {
-		for(x = 0;x >= 1; x++) {
-			for(y = 0; y>= 1; y++) {
-
 				num = x + y;
 				num /= 2;
-			}
-		}
+
 		return num;
 	}
 

@@ -5,15 +5,16 @@ package fundamentals.chapter4.sec1_method;
  * ※nはキーボード入力により取得すること
  */
 public class No010 {
-	static int num;
 	static int n;
 
-	static int no(int i) {
-		num = i;
-		num = 0;
+	static int no(int n) {
+		int i = 0;
 
-		for(int a = 1; a <= n; a++);
-		return num;
+		for(int a = 1; a <= n; a++) {
+
+		i = a + i;
+	}
+		return i;
 	}
 
 	public static void main(String[] args) {

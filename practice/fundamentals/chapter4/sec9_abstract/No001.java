@@ -6,3 +6,9 @@ package fundamentals.chapter4.sec9_abstract;
 public class No001 {
 
 }
+
+abstract class Animal {
+	String bark() {
+		return
+	}
+}

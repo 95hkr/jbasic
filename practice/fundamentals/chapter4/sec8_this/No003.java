@@ -10,6 +10,9 @@ public class No003 {
 }
 
 class Test {
+	Test(){
+		this.method();
+	}
 	void method() {
 		System.out.println("Test!!!");
 	}

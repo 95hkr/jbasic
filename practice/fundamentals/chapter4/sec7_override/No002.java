@@ -12,7 +12,14 @@ package fundamentals.chapter4.sec7_override;
  */
 public class No002 {
 	public static void main(String[] args) {
+		漫画 comic = new 漫画();
+		System.out.println(comic.showPrice());
 
+		小説 novel = new 小説();
+		System.out.println(novel.showPrice());
+
+		雑誌 magazine = new 雑誌();
+		System.out.println(magazine.showPrice());
 	}
 }
 
@@ -20,5 +27,26 @@ class Book {
 	int price = 500;  // 価格
 	int showPrice() {
 		return price;
+	}
+}
+
+class 漫画 extends Book {
+	@Override
+	int showPrice() {
+		return price - 200;
+	}
+}
+
+class 小説 extends Book {
+	@Override
+	int showPrice() {
+		return price - 100;
+	}
+}
+
+class 雑誌 extends Book {
+	@Override
+	int showPrice() {
+		return price + 100;
 	}
 }

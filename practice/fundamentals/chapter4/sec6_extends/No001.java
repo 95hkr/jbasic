@@ -4,16 +4,6 @@ package fundamentals.chapter4.sec6_extends;
  * また、No001クラス内でsetTitleメソッドを使用して本のタイトルを設定後、
  * getTitleメソッドを使用して設定した本のタイトルを出力するプログラムを作成してください。
  */
-public class No001 extends Book {
-	public static void main(String[] args) {
-
-	}
-		String title = "火花";
-		String setTitle() {
-			return title;
-	}
-}
-
 class Book {
 	String title;
 
@@ -23,5 +13,14 @@ class Book {
 
 	public void setTitle(String title) {
 		this.title = title;
+	}
+}
+
+public class No001 extends Book {
+	public static void main(String[] args) {
+		Book b1 = new Book();
+		b1.setTitle("花のち晴れ");
+
+		System.out.println("タイトル：" + b1.getTitle());
 	}
 }

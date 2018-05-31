@@ -5,8 +5,10 @@ package fundamentals.chapter2.sec6_if;
  */
 public class No006 {
 	public static void main(String[] args) {
-	double x = 8.8;
-	
-	if(x == )
-}
+		double x = 8.8;
+
+		if(x == ){
+
+		}
+	}
 }

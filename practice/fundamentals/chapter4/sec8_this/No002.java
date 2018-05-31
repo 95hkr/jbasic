@@ -11,7 +11,7 @@ public class No002 {
 
 class Book {
 	Book() {
-
+		this("星新一ショートショートセレクション");
 	}
 	Book(String title) {
 		System.out.println(title);

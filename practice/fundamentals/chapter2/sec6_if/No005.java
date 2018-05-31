@@ -5,12 +5,12 @@ package fundamentals.chapter2.sec6_if;
  */
 public class No005 {
 	public static void main(String[] args) {
-		int x = 58;
-		
-		int y = ;
-		
-		if(x == ) {
-			
+		int x = 1;
+
+		if(10 <= x && x <= 100) {
+			System.out.println("可");
+		}else {
+			System.out.println("不可");
 		}
 	}
 }

@@ -7,7 +7,13 @@ package fundamentals.chapter4.sec7_override;
  */
 public class No003 {
 	public static void main(String[] args) {
-		
+		一般User user = new 一般User();
+//		System.out.println
+		user.show();
+
+		管理者 kanri = new 管理者();
+		kanri.show();
+
 	}
 }
 
@@ -15,6 +21,24 @@ class User {
 	String name;
 	int id;
 	void show() {
+		System.out.println("ユーザID：" + id + "ユーザ名：" + name);
+	}
+}
+
+class 一般User extends User {
+	@Override
+	void show() {
+		name = "hana";
+		id = 8;
+		System.out.println("ユーザID：" + id + "ユーザ名：" + name);
+	}
+}
+
+class 管理者 extends User {
+	@Override
+	void show() {
+		name = "sht";
+		id = 1;
 		System.out.println("ユーザID：" + id + "ユーザ名：" + name);
 	}
 }

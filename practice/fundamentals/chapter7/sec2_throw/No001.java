@@ -4,5 +4,6 @@ package fundamentals.chapter7.sec2_throw;
  * 値が0の場合に「ArithmeticException」の例外を発生させるプログラムを作成してください。
  */
 public class No001 {
-	
+	int a = 0;
+
 }
